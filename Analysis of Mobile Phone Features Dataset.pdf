@@ -1,1 +1,54 @@
+Analysis of Mobile Phone Features Dataset Prepared by Raji Sulaeman
+
+1.	Introduction
+This analysis explores a dataset containing mobile phone features from various companies, aiming to understand market trends, brand dominance, and product specifications. The dataset includes attributes such as company name, model details, technical specifications, launch year, and price.
+
+
+2.	Dataset Overview
+-	Source: CSV file named Mobiles Dataset (2025).csv
+-	Size: 930 entries (rows) with 11 initial features (columns).
+-	Key Columns:
+-	Company Name: Manufacturer brand (e.g., Apple).
+-	Model Name: Specific phone model (e.g., iPhone 16 128GB).
+-	Technical specifications: RAM, Front/Back Camera, Processor, Battery Capacity, Screen Size.
+-	Launch details: Launched Price (India) and Launched Year.
+
+
+3.	Data Cleaning
+-	Columns Dropped: Battery Capacity, Screen Size, and Launched Price (India) (columns 7–9) to focus on core features.
+-	Final Columns Retained:
+-	Company Name, Model Name, Mobile Weight, RAM, Front Camera, Back Camera, Processor, Launched Year.
+
+
+4.	Exploratory Data Analysis (EDA)
+4.1	Distribution of Models by Company
+-	Key Insight: Apple dominates the dataset with the highest number of models (e.g., multiple iPhone 16 variants), followed by Samsung and Xiaomi.
+-	Visualization: A bar plot (shown below) highlights the count of models per company.
+-	Top Companies: Apple, Samsung, Xiaomi, OnePlus.
+ 
+-	Implication: Market leaders invest heavily in diversifying their product lines.
+4.2	Launches Over Time
+-	Key Insight: The dataset primarily includes models launched in 2024, suggesting a focus on recent releases.
+-	Visualization: A line plot (not shown here) would reveal spikes in launch activity in specific years, indicating product refresh cycles.
+
+
+5.	Technical Specifications Analysis
+-	RAM: Most phones feature 6GB–8GB RAM, catering to mid-range performance demands.
+-	Cameras:
+-	Front Camera: Standardized around 12MP for most models.
+-	Back Camera: High-resolution 48MP configurations are common in premium models.
+-	Processor: Apple’s proprietary A17 Bionic chip dominates its lineup, while others use
+Qualcomm/Snapdragon processors.
+
+
+Conclusion
+-	Apple leads in model diversity and premium offerings, while competitors like Samsung and Xiaomi cater to broader price segments.
+-	Recent launches emphasize high-performance specs (RAM, cameras) to meet consumer demands.
+Next Steps:
+-	Investigate pricing strategies across regions.
+-	Analyze battery life and screen size impacts on market performance.
+
+
+Prepared by: Raji Sulaeman
+
 
